@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ra'ad Alzyoud | CTF Player</title>
-    <link rel="stylesheet" href="styles.css">
-    
-    <!-- Add jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ra'ad Alzyoud | CTF Player</title>
+  <!-- Link to Google Fonts for custom font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+  <!-- Link to CSS file -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Link to theaterJS library -->
+  <script src="https://cdn.jsdelivr.net/npm/theaterjs"></script>
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <div class="page-wrapper">
-        <div class="nav-wrapper">
-            <div class="grad-bar"></div>
-            <nav class="navbar">
-                <h1 class="logo">Ra'ad Alzyoud</h1>
-                <div class="menu-toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="nav no-search">
-                    <li class="nav-item"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <section class="headline">
-            <h1>Welcome to My Website</h1>
-            <p>Exploring Cybersecurity and CTF Competitions</p>
-        </section>
-        <section class="contact" id="contact">
-            <h2>Contact Me</h2>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ra-ad-alzyoud-084a4b283/" target="_blank">Ra'ad Alzyoud</a></p>
-            <p><strong>Discord:</strong> r3p3rx</p>
-        </section>
+
+  <!-- Hero Section -->
+  <section class="hero is-dark is-fullheight">
+    <div class="hero-header">
+      <h1 class="title is-hero" id="scene1">Ra'ad Alzyoud</h1>
+      <h2 class="subtitle">
+        <a href="https://github.com/Raadalzyoud" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/ra-ad-alzyoud-084a4b283/" target="_blank">LinkedIn</a>
+      </h2>
     </div>
-    <script src="script.js"></script>
+    <div class="hero-content main-hero-padding">
+      <div class="scene">
+        <div class="actor">
+          <h1 class="title" id="scene1"></h1>
+          <h1 class="title" id="scene2"></h1>
+          <h1 class="title" id="scene3"></h1>
+        </div>
+      </div>
+    </div>
+    <div class="hero-footer">
+      <h2 class="subtitle">
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+      </h2>
+    </div>
+  </section>
+
 </body>
 </html>
