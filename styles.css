@@ -6,6 +6,12 @@
   font-family: 'Lato', 'Arial', sans-serif;
 }
 
+/* Body and Background */
+body {
+  background-color: #121212; /* Dark background for dark theme */
+  color: #fff; /* White text for contrast */
+}
+
 /* Headings */
 h1, p {
   color: #fff;
@@ -18,7 +24,7 @@ h1 {
 }
 
 h2 {
-  color: #000;
+  color: #fff; /* White color for headings */
   font-size: 1.3rem;
   text-align: center;
   line-height: 1.4;
@@ -35,7 +41,7 @@ h2 {
   width: 100%;
   position: sticky;
   top: 0;
-  background-color: #fff;
+  background-color: #1c1c1c; /* Dark navbar */
   z-index: 1000;
 }
 
@@ -60,7 +66,7 @@ h2 {
 .navbar .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #000;
+  color: #fff;
 }
 
 .navbar ul {
@@ -70,7 +76,7 @@ h2 {
 }
 
 .nav-item a {
-  color: #000;
+  color: #fff; /* White text for navbar links */
   font-size: 0.9rem;
   font-weight: 400;
   text-decoration: none;
@@ -78,7 +84,7 @@ h2 {
 }
 
 .nav-item a:hover {
-  color: #3498db;
+  color: #3498db; /* Blue hover effect */
 }
 
 /* Headline Section */
@@ -95,30 +101,20 @@ h2 {
   text-align: center;
 }
 
-/* Features Section */
-.features {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: #f1f1f1;
+/* Contact Section */
+.contact {
   padding: 50px 20px;
-}
-
-.feature-container {
-  flex-basis: 30%;
   text-align: center;
-  margin-top: 10px;
+  background-color: #1c1c1c; /* Dark background for contact section */
 }
 
-.feature-container p {
-  color: #000;
-  line-height: 1.4;
-  margin-bottom: 15px;
+.contact a {
+  color: #3498db; /* Blue links for contact */
+  text-decoration: none;
 }
 
-.feature-container img {
-  width: 100%;
-  margin-bottom: 15px;
+.contact a:hover {
+  text-decoration: underline;
 }
 
 /* Mobile Menu */
@@ -171,7 +167,7 @@ h2 {
     position: fixed;
     top: 55px;
     left: 0;
-    background-color: #fff;
+    background-color: #1c1c1c; /* Dark navbar on mobile */
     width: 100%;
     height: calc(100vh - 55px);
     transform: translateX(-100%);
@@ -187,4 +183,3 @@ h2 {
     display: flex;
   }
 }
-
